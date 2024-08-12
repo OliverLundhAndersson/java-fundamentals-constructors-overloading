@@ -26,5 +26,16 @@ public class Extension extends ExtensionBase {
         multiply(["2", "7", "3"], 3) -> [6, 21, 9]
      */
 
+    public float add(float numOne, float numTwo) {
+        return numOne + numTwo;
+    }
+
+    public double add(double numOne, double numTwo) {
+        return numOne + numTwo;
+    }
+
+    public float subtract(float numOne, float numTwo) {
+        return numOne - numTwo;
+    }
 
 }
